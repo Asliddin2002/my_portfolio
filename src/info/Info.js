@@ -1,9 +1,8 @@
 import me from "../img/me.png"
-import mock1 from "../img/mock1.png"
-import mock2 from "../img/mock2.png"
-import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
+import moc1 from "../img/moc1.jpg"
+import moc2 from "../img/moc2.jpg"
+import moc3 from "../img/moc3.jpg"
+
 
 export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
 
@@ -29,7 +28,6 @@ export const info = {
       link: "https://t.me/Kholturaev_A",
       icon: "fa fa-telegram",
     },
-
   ],
   bio: "Hello! I'm Asliddin. I'm a front-end developer for company iTech. Also, I have studied Westminster International University in Tashkent for 2 years, I enjoy coding, and I believe web-development will inevitably rule us all one day. You should hire me!",
   skills: {
@@ -44,7 +42,7 @@ export const info = {
       "html5",
       "css3",
       "scss",
-      "mui"
+      "mui",
     ],
     exposedTo: ["nodejs", "python", "adobe illustrator"],
   },
@@ -65,40 +63,25 @@ export const info = {
       label: "cooking",
       emoji: "🌶",
     },
-    // Same as above, change the emojis to match / relate to your hobbies or interests.
-    // You can also remove the emojis if you'd like, I just think they look cute :P
   ],
   portfolio: [
-    // This is where your portfolio projects will be detailed
     {
-      title: "Project 1",
-      live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-      source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
-      image: mock1,
+      title: "Commercial App",
+      live: "https://yengilcredit.uz", 
+      source: "", 
+      image: moc1,
     },
     {
-      title: "Project 2",
-      live: "https://paytonpierce.dev",
-      source: "https://github.com/paytonjewell",
-      image: mock2,
+      title: "My Works",
+      live: "https://kholturaev-asliddin.vercel.app/",
+      source: "https://github.com/Asliddin2002/My-portfolio",
+      image: moc2,
     },
     {
-      title: "Project 3",
-      live: "https://paytonpierce.dev",
-      source: "https://github.com/paytonjewell",
-      image: mock3,
-    },
-    {
-      title: "Project 4",
-      live: "https://paytonpierce.dev",
-      source: "https://github.com/paytonjewell",
-      image: mock4,
-    },
-    {
-      title: "Project 5",
-      live: "https://paytonpierce.dev",
-      source: "https://github.com/paytonjewell",
-      image: mock5,
+      title: "Music Player",
+      live: "https://khoas-muisc-player.vercel.app/",
+      source: "https://github.com/Asliddin2002/Muisc-Player",
+      image: moc3,
     },
   ],
 };
