@@ -1,8 +1,8 @@
-import me from "../img/me.png"
-import moc1 from "../img/moc1.jpg"
-import moc2 from "../img/moc2.jpg"
-import moc3 from "../img/moc3.jpg"
-
+import me from "../img/me.png";
+import moc1 from "../img/moc1.jpg";
+import moc3 from "../img/moc3.jpg";
+import shop from "../img/shop.jpg";
+import dashboard from "../img/dashnoard.jpg";
 
 export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
 
@@ -66,16 +66,22 @@ export const info = {
   ],
   portfolio: [
     {
-      title: "Commercial App",
-      live: "https://yengilcredit.uz", 
-      source: "", 
+      title: "Commercial App (real project)",
+      live: "https://yengilcredit.uz",
+      source: "",
       image: moc1,
     },
     {
-      title: "My Works",
-      live: "https://kholturaev-asliddin.vercel.app/",
-      source: "https://github.com/Asliddin2002/My-portfolio",
-      image: moc2,
+      title: "Commerce App",
+      live: "https://e-commercial-app.vercel.app/",
+      source: "https://github.com/Asliddin2002",
+      image: shop,
+    },
+    {
+      title: "Dashboard",
+      live: "https://khoas-commercial-dashboard.vercel.app/",
+      source: "https://github.com/Asliddin2002",
+      image: dashboard,
     },
     {
       title: "Music Player",
