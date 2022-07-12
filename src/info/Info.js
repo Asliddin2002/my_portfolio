@@ -2,6 +2,7 @@ import me from "../img/me.png";
 import moc1 from "../img/moc1.jpg";
 import moc3 from "../img/moc3.jpg";
 import shop from "../img/shop.jpg";
+import house from "../img/house.jpg";
 import dashboard from "../img/dashnoard.jpg";
 
 export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
@@ -88,6 +89,12 @@ export const info = {
       live: "https://khoas-muisc-player.vercel.app/",
       source: "https://github.com/Asliddin2002/Muisc-Player",
       image: moc3,
+    },
+    {
+      title: "house market",
+      live: "https://khoas-house-market-app.netlify.app/",
+      source: "https://github.com/Asliddin2002/house-market-app",
+      image: house,
     },
   ],
 };
